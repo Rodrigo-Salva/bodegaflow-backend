@@ -5,7 +5,7 @@ from rest_framework_simplejwt.views import (
     TokenVerifyView
 )
 from applications.users.views import CustomTokenObtainPairView
-from .swagger import schema_view  # 👈 Import del swagger
+from .swagger import schema_view  # 👈 Comenta esto por ahora
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -22,7 +22,7 @@ urlpatterns = [
     path('api/purchases/', include('applications.purchases.urls')),
     path('api/sales/', include('applications.sales.urls')),
 
-    # 📘 Documentación Swagger y Redoc
+    #📘 Documentación Swagger y Redoc (comentado por ahora)
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
     path('swagger.json', schema_view.without_ui(cache_timeout=0), name='schema-json'),
