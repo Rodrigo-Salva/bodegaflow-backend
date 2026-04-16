@@ -1,10 +1,10 @@
-# Bodegaflow — Backend 🚀🍷
+# Bodegaflow — Backend
 
 Bodegaflow es una API REST profesional para la gestión integral de bodegas (usuarios, catálogo, inventario, compras y ventas), construida con Django y Django REST Framework. Este README está diseñado para ser visual, claro y listo para publicarse en GitHub.
 
 ---
 
-## 🧭 Índice
+## Índice
 - [Visión general](#-visión-general)
 - [Stack tecnológico](#️-stack-tecnológico)
 - [Arquitectura](#️-arquitectura--estructura-de-carpetas)
