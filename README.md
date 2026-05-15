@@ -21,7 +21,7 @@ Bodegaflow es buena una API REST profesional para la gestión integral de bodega
 ## ✅ Visión general
 
 Bodegaflow ofrece una API REST moderna para:
-- Gestión de usuarios y roles.
+- Gestión de usuarios y roles-permisos.
 - Catálogo de productos y categorías.
 - Control de inventario (entradas/salidas, stock).
 - Gestión de ventas y compras con líneas y totales.
